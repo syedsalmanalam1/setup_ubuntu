@@ -77,3 +77,20 @@ sudo apt-get install net-tools
 echo "##----------------------------------##"
 echo "##### Docker"
 echo "##----------------------------------##"
+
+echo "###### sudo apt-get update"
+echo "##----------------------------------##"
+sudo apt-get update
+
+echo "###### apt-get install"
+echo "##----------------------------------##"
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+
+echo "###### curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -"
+echo "##----------------------------------##"
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
