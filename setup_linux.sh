@@ -114,3 +114,30 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 echo "###### apt-cache madison docker-ce"
 echo "##----------------------------------##"
 apt-cache madison docker-ce
+
+
+### Install Docker-compose
+echo "##----------------------------------##"
+echo "##### Docker-compose"
+echo "##----------------------------------##"
+
+echo "###### sudo curl -L"
+echo "##----------------------------------##"
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+echo "###### sudo chmod +x /usr/local/bin/docker-compose"
+echo "##----------------------------------##"
+sudo chmod +x /usr/local/bin/docker-compose
+
+echo "###### sudo npm install -g pm2"
+echo "##----------------------------------##"
+sudo npm install -g pm2
+
+
+
+
+# end message
+echo ""
+echo "-------------------------------------------"
+echo "------------------ DONE -------------------"
+echo "-------------------------------------------"
