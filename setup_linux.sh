@@ -26,6 +26,7 @@ pip3 install websocket-server
 
 
 ###  Install node & yarn manager
+echo ""
 echo "##----------------------------------##"
 echo "#########Install node & yarn manager"
 echo "##----------------------------------##"
@@ -52,6 +53,7 @@ sudo npm install -g @angular/cli
 
 
 ### Install pm2
+echo ""
 echo "##----------------------------------##"
 echo "##### install pm2"
 echo "##----------------------------------##"
@@ -65,6 +67,7 @@ echo "##----------------------------------##"
 sudo pm2 install typescript
 
 ### install net tools
+echo ""
 echo "##----------------------------------##"
 echo "##### install net tools"
 echo "##----------------------------------##"
@@ -73,7 +76,7 @@ echo "###### sudo apt-get install net-tools"
 echo "##----------------------------------##"
 sudo apt-get install net-tools
 
-
+echo ""
 echo "##----------------------------------##"
 echo "##### Docker"
 echo "##----------------------------------##"
@@ -117,6 +120,7 @@ apt-cache madison docker-ce
 
 
 ### Install Docker-compose
+echo ""
 echo "##----------------------------------##"
 echo "##### Docker-compose"
 echo "##----------------------------------##"
@@ -132,7 +136,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 echo "###### sudo npm install -g pm2"
 echo "##----------------------------------##"
 sudo npm install -g pm2
-
 
 
 
