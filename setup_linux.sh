@@ -76,6 +76,7 @@ echo "###### sudo apt-get install net-tools"
 echo "##----------------------------------##"
 sudo apt-get install net-tools
 
+### install Docker
 echo ""
 echo "##----------------------------------##"
 echo "##### Docker"
@@ -132,11 +133,6 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-
 echo "###### sudo chmod +x /usr/local/bin/docker-compose"
 echo "##----------------------------------##"
 sudo chmod +x /usr/local/bin/docker-compose
-
-echo "###### sudo npm install -g pm2"
-echo "##----------------------------------##"
-sudo npm install -g pm2
-
 
 
 # end message
