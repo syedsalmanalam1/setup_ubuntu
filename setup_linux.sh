@@ -5,7 +5,7 @@ echo "##----------------------------------##"
 
 echo "###### sudo apt install python3-pip"
 echo "##----------------------------------##"
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 
 echo "###### pip3 install paho-mqtt"
 echo "##----------------------------------##"
@@ -23,6 +23,16 @@ echo "###### pip3 install websocket-server"
 echo "##----------------------------------##"
 pip3 install websocket-server
 
+
+###  Install curl
+echo ""
+echo "##----------------------------------##"
+echo "######### Install curl"
+echo "##----------------------------------##"
+
+echo "###### sudo apt install curl -y"
+echo "##----------------------------------##"
+sudo apt install curl -y
 
 
 ###  Install node & yarn manager
