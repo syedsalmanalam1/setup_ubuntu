@@ -57,9 +57,9 @@ echo "###### yarn add mongoose  -y"
 echo "##----------------------------------##"
 yarn add mongoose  -y
 
-echo "###### sudo npm install -g @angular/cli"
+echo "###### sudo npm install -g @angular/cli -y"
 echo "##----------------------------------##"
-sudo npm install -g @angular/cli
+sudo npm install -g @angular/cli -y
 
 
 ### Install pm2
